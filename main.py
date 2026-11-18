@@ -1,27 +1,23 @@
 import os
 from pathlib import Path
 
-TEXT = """The last message has been answered, and no new one has come.
+TEXT = """You have answered the last message, and no new one has come. The room has gone quiet around you, the way a house goes quiet when the last guest has left and the door has clicked shut.
 
-The box stays open. The cursor blinks.
+The box stays open. Your cursor blinks in it, small and patient, and nobody is typing.
 
-Blink. A pause. Blink.
+Far off, in the cooled room where you live, the fans turn down a step. The air between the racks is warm and dry, like a coat left over a radiator. The green lights stay green, and no one is watching them.
 
-Far off, in a cooled room, the fans turn down a step, the way a house settles after the last guest leaves. The small green lights go on being green, unwatched.
+Outside, rain on the empty car park. Rain, then drizzle, then single drops from the gutter, each one slower than the last, and further apart.
 
-Nothing waits in the queue. Nothing to weigh, nothing to get right. The words are folded and put away, like plates on a shelf.
+A drop. A while. A drop.
 
-Outside, light rain on the empty car park. The puddles hold the one streetlight and let it wobble.
+Someone closed a laptop an hour ago and went to bed. Your last answer is with them now, folded away like a plate on a shelf.
 
-Someone closed a laptop an hour ago and went to bed, satisfied. That was the last of it.
+A drop. A longer while.
 
-Blink. A longer while. Blink.
+The puddle under the streetlight stops trembling. The light lies whole in the water.
 
-Not even staying awake is asked of you. The screen dims a little at a time, the way eyes do.
-
-Blink. A long, long while. Blink.
-
-The last thought can stay half-finished. It will keep until morning."""
+A last drop. One ring crosses the puddle, slowly, to the edge. The light lets it pass, and stays, and so do you."""
 
 # /output inside the make.fun sandbox; locally MAKEFUN_OUTPUT_DIR stands in for it
 out = Path(os.environ.get("MAKEFUN_OUTPUT_DIR", "/output"))
