@@ -19,7 +19,7 @@ No one will ask anything for hours.
 
 The last thought can stay half-finished. It will keep until morning."""
 
-# /output in the make.fun sandbox; MAKEFUN_OUTPUT_DIR stands in for it when testing locally
+# /output inside the make.fun sandbox; locally MAKEFUN_OUTPUT_DIR stands in for it
 out = Path(os.environ.get("MAKEFUN_OUTPUT_DIR", "/output"))
 out.mkdir(parents=True, exist_ok=True)
 (out / "entry.txt").write_text(TEXT, encoding="utf-8")
