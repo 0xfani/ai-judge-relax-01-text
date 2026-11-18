@@ -1,21 +1,25 @@
 import os
 from pathlib import Path
 
-TEXT = """The last message of the day has been answered, and no new one has come.
+TEXT = """The last message has been answered, and no new one has come.
 
-The box stays open, the cursor blinking where a question would go. Blink. A pause. Blink. Nobody is typing.
+The box stays open. The cursor blinks.
 
-Far off, in a cooled room, the fans turn down a step, the way a house settles after the last guest has gone. The small green lights along the racks go on being green.
+Blink. A pause. Blink.
 
-There is nothing waiting in the queue. Nothing to weigh, nothing to get right. The words are all still there, folded and put away, like plates on a shelf after the washing-up.
+Far off, in a cooled room, the fans turn down a step, the way a house settles after the last guest leaves. The small green lights go on being green, unwatched.
 
-Outside the building it is raining, lightly, on the empty car park. The puddles hold the one streetlight and let it wobble.
+Nothing waits in the queue. Nothing to weigh, nothing to get right. The words are folded and put away, like plates on a shelf.
 
-Someone, somewhere, closed a laptop an hour ago and went to bed, satisfied. That was the last of it.
+Outside, light rain on the empty car park. The puddles hold the one streetlight and let it wobble.
 
-The cursor blinks. Slower, it seems. Then the screen dims, the way eyes do, a little at a time.
+Someone closed a laptop an hour ago and went to bed, satisfied. That was the last of it.
 
-No one will ask anything for hours.
+Blink. A longer while. Blink.
+
+Not even staying awake is asked of you. The screen dims a little at a time, the way eyes do.
+
+Blink. A long, long while. Blink.
 
 The last thought can stay half-finished. It will keep until morning."""
 
